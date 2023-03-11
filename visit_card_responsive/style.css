@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;600&family=Zen+Old+Mincho&display=swap');
+
+html{
+    background-image: linear-gradient(to top, #5e6063, #1d1d20);
+    background-attachment: fixed;
+    font-family:'IBM Plex Mono', monospace;
+}
+ 
+body{
+    background-color: white;
+    max-width: 700px;
+    min-height: 500px;
+    text-align: center;
+    margin: auto;
+    border: rgb(27, 27, 27) solid 1px;
+    box-shadow: 5px 5px 5px rgb(19, 18, 18);
+    border-radius: 18px;
+    transform: translateY(30%);
+}
+
+#name{
+    color: black;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 20px;
+}
+
+.ul{
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    width: 300px;
+    padding: 10px;
+    float: left;
+}
+
+.ul div{
+    border: black solid 1px;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+img{ 
+    width: 335px;
+    bottom: -9.4px;
+    position: relative;
+}
+
+#whatsapp{
+    background-color: #34af23;
+    color: white;
+}
+
+#whatsapp:hover{
+    background-color: white;
+    color: #34af23;
+}
+
+#facebook{
+    background-color: #3b5998;
+    color: white;
+}
+
+#facebook:hover{
+    background-color: white;
+    color: #3b5998;
+}
+
+#instagram{
+    background-image:linear-gradient(-45deg, #D2026A, #FEB001);
+    color: white;
+}
+
+#instagram:hover{
+    background-image: none;
+    color: #D2026A;
+}
+
+#linkedin{
+    background-color: #0275B4;
+    color: white;
+}
+
+#linkedin:hover{
+    background-color: white;
+    color: #0275B4;
+}
+
+a{
+    text-decoration: none;
+    width: 300px;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px ) {
+
+    body{
+        max-width: 500px;
+        transform: translateY(3%);
+    }
+
+    .ul{
+        float:none;
+        margin: auto;
+        transform: translatex(-5%);
+    }
+     
+    img{
+        bottom:-4.3px;
+    }
+
+}
+
+@media screen and (max-width: 510px ) {
+
+    .ul{
+        transform: translateX(-5%);
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 510px ) {
+
+    #name{
+        font-size: 40px;
+    }
+
+}
